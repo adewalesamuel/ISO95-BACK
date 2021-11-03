@@ -1,0 +1,32 @@
+{
+  "name": "iso95",
+  "version": "1.0.0",
+  "description": "Application de partage de photos profesionnelles en Afrique",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Photos",
+    "Afrique",
+    "Photographe",
+    "Photography",
+    "Picture",
+    "Africa",
+    "App"
+  ],
+  "author": "samueladewale",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "helmet": "^3.21.2",
+    "image-size": "^0.7.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.4",
+    "nodemailer": "^6.7.0",
+    "nodemon": "^1.19.4",
+    "sharp": "^0.29.2"
+  }
+}
