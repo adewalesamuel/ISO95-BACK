@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const helmet = require('helmet')
 const compression = require('compression')
 const mongoose = require('mongoose')
-const conn = mongoose.connect( mongoUri, {useNewUrlParser: true} )
+const conn = mongoose.connect( mongoUri, {useNewUrlParser: true, useUnifiedTopology: true })
 
 const PORT = process.env.PORT || 8080
 
@@ -40,4 +40,4 @@ app.use('/api/message', messageRoutes)
 
 app.get('/*', (req, res) => res.sendFile(path.join(__dirname, '/uploads/public/index.html')))
 
-app.listen(PORT)
+app.listen(PORT, () => console.log("Started server on port :" + PORT))

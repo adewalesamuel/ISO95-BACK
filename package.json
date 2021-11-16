@@ -20,13 +20,13 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "formidable": "^1.2.1",
-    "helmet": "^3.21.2",
+    "formidable": "^1.2.6",
+    "helmet": "^3.23.3",
     "image-size": "^0.7.5",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.8.4",
+    "mongoose": "^5.13.13",
     "nodemailer": "^6.7.0",
-    "nodemon": "^1.19.4",
+    "nodemon": "^2.0.14",
     "sharp": "^0.29.2"
   }
 }
